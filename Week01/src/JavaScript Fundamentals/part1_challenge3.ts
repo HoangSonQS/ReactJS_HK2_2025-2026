@@ -1,12 +1,12 @@
 import { resolve } from "dns";
 import * as readline from "readline";
 
-const rl = readline.createInterface({
+export const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-const nhapDuLieu = (cauHoi: string): Promise<string> => {
+export const nhapDuLieu = (cauHoi: string): Promise<string> => {
     return new Promise((resolve) => {
         rl.question(cauHoi, (answer) => {
             resolve(answer)
@@ -45,4 +45,4 @@ const main = async () => {
   }
 }
 
-main()
+// main()
