@@ -4,4 +4,6 @@
 // import './JavaScript Fundamentals/part2_challenge2'
 // import './JavaScript Fundamentals/part2_challenge3'
 // import './JavaScript Fundamentals/part2_challenge4'
-import './Developer Skills & Editor Setup/challenge1'
+// import './Developer Skills & Editor Setup/challenge1'
+// import './Data Structures and Modern Operators and Strings/challenge1'
+import './Data Structures and Modern Operators and Strings/challenge2'
