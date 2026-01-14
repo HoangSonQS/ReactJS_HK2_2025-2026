@@ -1,4 +1,4 @@
-const calcTip = (bill: number): number => {
+export const calcTip = (bill: number): number => {
     return bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2
 }
 

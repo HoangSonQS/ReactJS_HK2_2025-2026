@@ -2,5 +2,5 @@
 // import './JavaScript Fundamentals/part1_challenge3'
 // import './JavaScript Fundamentals/part2_challenge1'
 // import './JavaScript Fundamentals/part2_challenge2'
-import './JavaScript Fundamentals/part2_challenge3'
-
+// import './JavaScript Fundamentals/part2_challenge3'
+import './JavaScript Fundamentals/part2_challenge4'
