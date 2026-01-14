@@ -1,1 +1,1 @@
-import './challenge1'
+import './part1'

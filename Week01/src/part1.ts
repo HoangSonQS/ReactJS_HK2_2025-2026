@@ -9,9 +9,9 @@ const jBmi = jMass / jHeight ** 2
 
 const markHigherBMI = mBmi > jBmi
 
-console.log("Kết quả challange 1")
-console.log(`BMI MARK: ${mBmi}`);
-console.log(`BMI JONH: ${jBmi}`);
+if (markHigherBMI) console.log(`Mark's BMI (${mBmi}) is higher than John's (${jBmi})!`);
+else console.log(`Mark's BMI (${mBmi}) is shorter than John's (${jBmi})!`);
+
 
 
 
