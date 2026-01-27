@@ -1,16 +1,17 @@
 import '../styles/components/ProductCart.css'
+import type { Product } from "../interface/Product"
 
-const ProductCart = () => {
+const ProductCard = ({ product }: { product: Product }) => {
     return (
         <div className='product-cart'>
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Shoe" className="product-img"/>
+            <img src={product.image} alt={product.name} className="product-img" />
             <div className='product-info'>
-                <h3>Nike Air Max</h3>
-                <p className="price">$120.0</p>
+                <h3>{product.name}</h3>
+                <p className="price">{product.price}</p>
                 <button className="btn-add">Add to Cart</button>
             </div>
         </div>
     )
 }
 
-export default ProductCart
+export default ProductCard
