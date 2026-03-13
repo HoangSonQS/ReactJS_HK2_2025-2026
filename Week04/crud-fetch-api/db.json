@@ -1,0 +1,21 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Learn React"
+    },
+    {
+      "id": "2",
+      "title": "Learn TypeScript"
+    },
+    {
+      "id": "0858",
+      "title": "test1"
+    },
+    {
+      "id": "bd55",
+      "title": "todo 04 cap nhat"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
