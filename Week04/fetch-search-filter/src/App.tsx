@@ -4,7 +4,6 @@ import './App.css'
 type Post = {
   id: number
   title: string
-
 }
 
 
