@@ -1,4 +1,4 @@
-import {BrowserRouter, Link, Navigate, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom'
 import './App.css'
 import DashBoard from './components/Dashboard'
 import Profile from './components/dashboard/Profile'
