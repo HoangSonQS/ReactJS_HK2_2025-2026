@@ -1,0 +1,15 @@
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.light * {
+  color: inherit;
+}
+
+.dark {
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
