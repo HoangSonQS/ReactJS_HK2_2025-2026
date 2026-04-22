@@ -40,7 +40,7 @@ function App() {
   }
 
   const deleteTodo = async (id: string) => {
-    const res = await fetch(`${API_URL}/${id}`, {
+    await fetch(`${API_URL}/${id}`, {
       method: 'DELETE',
     })
     setTodos(todos.filter(todo => todo.id !== id))
